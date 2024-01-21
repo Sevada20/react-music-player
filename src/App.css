@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.addSongButton {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.addSongButton:hover {
+  background-color: #2980b9;
+}

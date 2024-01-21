@@ -1,0 +1,48 @@
+.musicControlPanel {
+  display: flex;
+  gap: 50px;
+  border: 1px solid;
+  padding: 7px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 8px;
+  border-color: #8f8d8d;
+}
+.leftControls {
+  display: flex;
+}
+
+.rightControls {
+  display: flex;
+  gap: 5px;
+}
+
+.trackButtonContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.trackButton {
+  display: flex;
+  align-items: center;
+  padding: 3px 10px;
+}
+
+.sortFirstIcon {
+  margin: 4px;
+}
+
+.secondSortIcon {
+  transform: rotate(90deg);
+  font-size: 70%;
+  padding: 3px;
+  padding-bottom: 8px;
+  margin-left: 8px;
+}
+
+.searchInput {
+  border: 1px solid;
+  border-radius: 12px;
+  border-color: #8f8d8d;
+  padding: 0px 0px 0px 5px;
+}

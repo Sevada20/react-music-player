@@ -1,0 +1,35 @@
+.AddAllButtonContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.firstAddButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 2px 10px;
+}
+
+.firstAddIcon {
+  margin: 4px;
+}
+
+.secondAddIcon {
+  transform: rotate(90deg);
+  font-size: 70%;
+  padding: 3px;
+  padding-bottom: 8px;
+  margin-left: 8px;
+}
+
+.firstAddButton::before {
+  content: "";
+  position: absolute;
+  height: 110%;
+  width: 1px;
+  background-color: #000;
+  right: 22px;
+  bottom: 0.1;
+  margin-right: 5px;
+}

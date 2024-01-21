@@ -1,0 +1,23 @@
+.songName,
+.artistName,
+.trackNumber {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.songName > svg,
+.trackNumber > svg {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.songName > svg {
+  text-decoration: none;
+  color: #333;
+}
+.liked {
+  color: red;
+}
+.played {
+  background-color: red;
+}

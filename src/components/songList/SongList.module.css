@@ -1,0 +1,11 @@
+.songRootTableContainer {
+  width: 100%;
+  margin-top: 8px;
+}
+.tableHeadContainer {
+  background-color: #eeeeee;
+}
+
+.tableHeaderContainer {
+  padding: 5px;
+}
